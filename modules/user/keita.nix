@@ -7,8 +7,8 @@
     extraGroups = [
       "networkmanager"
       "wheel"
-      # "video"   # hyprland
-      # "input"   # hyprland
+      "video"   # hyprland
+      "input"   # hyprland
       "docker"  # docker
     ];
   };
