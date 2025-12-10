@@ -8,6 +8,7 @@
     tty-clock
     neofetch
     btop
+    pingu
 
     # fun tools
     cowsay
