@@ -1,0 +1,71 @@
+# ================================================================
+# Alacritty Configuration
+# ================================================================
+
+[window]
+dimensions = { columns = 90, lines = 28 }
+padding = { x = 8, y = 4 }
+decorations = "Full"
+dynamic_title = true
+opacity = 0.75
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[font]
+normal = { family = "HackGen Console NF", style = "Regular" }
+bold   = { family = "HackGen Console NF", style = "Bold" }
+# italic = { family = "JetBrains Mono", style = "Italic" }
+
+size = 14.0
+offset = { x = 0, y = 1 }
+glyph_offset = { x = 0, y = 0 }
+
+# [colors.primary]
+# background = "#2E3440"
+# foreground = "#D8DEE9"
+
+# [colors.normal]
+# black   = "#3B4252"
+# red     = "#BF616A"
+# green   = "#A3BE8C"
+# yellow  = "#EBCB8B"
+# blue    = "#81A1C1"
+# magenta = "#B48EAD"
+# cyan    = "#88C0D0"
+# white   = "#E5E9F0"
+
+# [colors.bright]
+# black   = "#4C566A"
+# red     = "#BF616A"
+# green   = "#A3BE8C"
+# yellow  = "#EBCB8B"
+# blue    = "#81A1C1"
+# magenta = "#B48EAD"
+# cyan    = "#8FBCBB"
+# white   = "#ECEFF4"
+
+[bell]
+animation = "EaseOutExpo"
+duration = 0
+
+[selection]
+save_to_clipboard = true
+
+[cursor]
+style = { shape = "Block", blinking = "On" }
+blink_interval = 500
+
+[terminal]
+osc52 = "CopyPaste"
+
+[mouse]
+hide_when_typing = true
+
+[keyboard]
+# Ctrl+Shift+T -> 新しいタブ（tmux 推奨）
+bindings = [
+  { key = "F11", action = "ToggleFullscreen" },
+  { key = "T", mods = "Control|Shift", action = "SpawnNewInstance" },
+]
