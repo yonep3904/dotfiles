@@ -6,9 +6,9 @@
   programs.hyprland = {
     enable = true;
     withUWSM = true;
-    xwayland = true;
+    # xwayland = true;
   };
-  # programs.xwayland.enable = true;
+  programs.xwayland.enable = true;
 
   services.dbus.enable = true;
   services.libinput.enable = true;
@@ -27,17 +27,18 @@
 
   # Wayland support packages
   environment.systemPackages = with pkgs; [
-    Wayland
-    Wayland-utils
+    wayland
+    wayland-utils
     wl-clipboard
     grim
     slurp
+    kitty
   ];
 
   # Japanese keyboard layout for Wayland
   services.xserver.enable = false;
   console.useXkbConfig = true;
-  console.keyMap = "jp";
+  # console.keyMap = "jp";
 
   # Don't forget add "video" and "input" to your user extraGroups
 }
