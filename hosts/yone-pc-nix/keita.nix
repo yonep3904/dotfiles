@@ -41,6 +41,7 @@
     discord
     slack
     spotify
+    teams-for-linux
     zoom-us
 
     audacity

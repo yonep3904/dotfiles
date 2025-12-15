@@ -7,9 +7,8 @@
     extraGroups = [
       "networkmanager"
       "wheel"
-      "video"   # hyprland
-      "input"   # hyprland
       "docker"  # docker
+      "dialout" "uucp" # Arduino
     ];
   };
 }
