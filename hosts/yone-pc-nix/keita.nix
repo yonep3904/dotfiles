@@ -45,6 +45,7 @@
     zoom-us
 
     audacity
+    drawio
     gimp
     inkscape
     vlc

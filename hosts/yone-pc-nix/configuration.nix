@@ -21,9 +21,9 @@
 
       ../../modules/system/desktop/fcitx5.nix
       ../../modules/system/desktop/fonts.nix
-      ../../modules/system/desktop/hyprland.nix
+      # ../../modules/system/desktop/hyprland.nix
       ../../modules/system/desktop/pipewire.nix
-      # ../../modules/system/desktop/plasma.nix
+      ../../modules/system/desktop/plasma.nix
 
       ../../modules/system/hardware/inspiron-5445.nix
       ../../modules/user/keita.nix
@@ -33,6 +33,7 @@
 
   # system packages
   environment.systemPackages = with pkgs; [
+    bash
     vim
     wget
     curl
