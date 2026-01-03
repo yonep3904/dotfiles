@@ -7,6 +7,7 @@
     ../../modules/home/development
     # ../../modules/home/fcitx5
     ../../modules/home/fonts
+    ../../modules/home/ghostty
     ../../modules/home/vscode
     ../../modules/home/zsh
 
@@ -46,6 +47,7 @@
 
     audacity
     drawio
+    ghostty
     gimp
     inkscape
     vlc
