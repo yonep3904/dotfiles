@@ -10,3 +10,4 @@
         ui = auto
 [alias]
 	ignore = "!gi() { curl -L -s https://www.gitignore.io/api/$@ ;}; gi"
+	cm = "commit -m"
