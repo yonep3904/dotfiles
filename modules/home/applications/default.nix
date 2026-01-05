@@ -24,6 +24,7 @@
     # document tools
     texliveMedium
     typst
+    typstyle
     udev-gothic-nf
   ];
 }
