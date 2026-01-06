@@ -28,7 +28,7 @@
 
       EDITOR = "nano";
       BROWSER = "brave";
-      TERMINAL = "alacritty";
+      TERMINAL = "ghostty";
       SHELL = "${pkgs.zsh}/bin/zsh";
     };
   };
